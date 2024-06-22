@@ -104,6 +104,23 @@ body {
 
   }
   
+  .about1{
+    font-weight: 500;
+    font-size: larger;
+   display: block;
+   padding-top: 200px;
+   box-shadow:  10pxpx 0px 10px 11px rgb(14 55 54/15%);
+  }
+
+  .about1 h3{
+    text-decoration: underline;
+    text-decoration-color: #1d3124;
+  
+  }
+
+  .about1 p{
+    font-size: 90px;
+  }
 
   #section2 h1{
     padding-top: 1%;
