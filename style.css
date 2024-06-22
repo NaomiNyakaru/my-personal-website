@@ -106,7 +106,7 @@ body {
   
   h1, p, img{
     animation: fade linear both;
-    animation-timeline: scroll(y);
+    animation-timeline: scroll();
     animation-range: entry 50% cover 50%;
 
   }
