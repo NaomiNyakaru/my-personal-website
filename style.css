@@ -103,6 +103,24 @@ body {
     font-size: large;
 
   }
+  
+  h1, p, img{
+    animation: fade linear both;
+    animation-timeline: scroll(y);
+    animation-range: entry 50% cover 50%;
+
+  }
+  @keyframes fade{
+    from{
+      opacity: 0;
+
+    }
+    to{
+      opacity: 1;
+
+    }
+    
+  }
 
   #section2 h1{
     padding-top: 1%;
@@ -137,4 +155,23 @@ body {
     text-decoration-color: #1d3124;
   }
 
+  #section3 h1{
+    padding-top: 3%;
+    text-align: center;
+    text-decoration: overline;
+  }
   
+  #section3 footer{
+    position: block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #BACeC1;
+    text-align: center;
+    height: 15vh;
+    margin-top: 38%;
+
+  }
+
+
+
